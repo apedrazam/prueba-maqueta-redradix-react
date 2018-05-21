@@ -10,15 +10,33 @@ class App extends Component {
     super(props);
 
     this.state = {
-      cards: CardData
+      cards: CardData,
+      openMenu: true,
+      flippedCard: true
     };
+    this.toggleMenu = this.toggleMenu.bind(this)
+    this.flipCard = this.flipCard.bind(this)
+  }
+  toggleMenu() {
+    this.setState({
+      openMenu: !this.state.openMenu
+    })
+  }
+  flipCard() {
+    this.setState({
+      flippedCard: !this.state.flippedCard
+    })
   }
   render() {
     return (
-      <div className="App">
-        <AppHeader/>
+      <div className={this.state.openMenu ? "App" : "App openMenu"}>
+        <AppHeader toggleMenu={this.toggleMenu}/>
         <section className="app-wrapper">
-          <CardsBoard cards={this.state.cards}/>
+          <CardsBoard
+            cards={this.state.cards}
+            flipCard={this.flipCard}
+            flippedCard={this.state.flippedCard}
+          />
         </section>
         <AppFooter name="Adrián Pedraza" link="https://github.com/hyphenfrog/prueba-maqueta-redradix-react"/>
       </div>

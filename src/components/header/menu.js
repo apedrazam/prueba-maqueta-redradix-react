@@ -4,7 +4,7 @@ import MenuItem from './menu_item.js';
 const AppMenu = (props) => {
   return(
     <div className="menu-container">
-      <button className="menu-button">
+      <button className="menu-button" onClick={props.toggleMenu}>
         <div className="icon-bar"></div>
         <div className="icon-bar"></div>
         <div className="icon-bar"></div>
@@ -13,7 +13,7 @@ const AppMenu = (props) => {
         <MenuItem linkName="maquetación"/>
         <MenuItem linkName="diseño"/>
         <MenuItem linkName="frontend (un poco)"/>
-        <MenuItem linkName="usabilidad (otro)"/>
+        <MenuItem linkName="usabilidad (otro poco)"/>
       </nav>
     </div>
   )

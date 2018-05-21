@@ -3,7 +3,7 @@ import React from 'react';
 const CardItem = (props) => {
   return(
     <article className="card">
-      <div className="card-flipper">
+      <div className={props.flippedCard ? "card-flipper" : "card-flipper flipped"} onClick={props.flipCard}>
         <section className="front">
           <p>{props.frontText}</p>
         </section>

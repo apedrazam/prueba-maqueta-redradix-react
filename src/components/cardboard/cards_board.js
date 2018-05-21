@@ -4,7 +4,12 @@ import CardItem from './card_item.js';
 const CardsBoard = (props) => {
   const cardsCollection = props.cards.map((card) => {
     return (
-      <CardItem itemData={card} />
+      <CardItem
+        frontText={card.frontText}
+        backText={card.backText} image={card.image}
+        flipCard={props.flipCard}
+        flippedCard={props.flippedCard}
+      />
     )
   });
 	return(
