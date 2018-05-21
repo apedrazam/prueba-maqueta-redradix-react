@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "frontText": "¿Y no te estarás flipando un poco?",
+    "backText": "Igual sí, pero internec dice que hay que destacar.",
+    "image":  {
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  },
+  {
+    "id": 1,
+    "frontText": "¿Entonces, eres un unicornio?",
+    "backText": "Más bien soy un unitard, pero lo intento.",
+    "image": {
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  },
+  {
+    "id": 2,
+    "frontText": "¿Y cuánto tiempo llevas en esto?",
+    "backText": "5 añitos aproximadamente",
+    "image": {
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  },
+  {
+    "id": 3,
+    "frontText": "¿Qué puedes aportar como persona?",
+    "backText": "Flexibiidad, buen trabajo en equipo y flexibilidad.",
+    "image":  {
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  },
+  {
+    "id": 4,
+    "frontText": "¿Qué buscas en una empresa?",
+    "backText": "Las tres Cs: crecer, crear y cerveza.",
+    "image":  {
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  },
+  {
+    "id": 5,
+    "frontText": "¿Cuándo lo queremos?",
+    "backText": "¡El perro de Fry!",
+    "image":  {
+      "imageUrl": "",
+      "imageAlt": ""
+    }
+  }
+]
