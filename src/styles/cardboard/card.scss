@@ -4,10 +4,8 @@
   flex-basis: 33.33333333%;
   perspective: 1000px;
 
-  &:hover{
-    .card-flipper {
-      transform: rotateY(180deg);
-    }
+  .card-flipper:hover {
+    transform: rotateY(180deg);
   }
 }
 .card-flipper{

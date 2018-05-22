@@ -39,7 +39,10 @@ a{
 
 @media (max-width: 768px) {
   .App.openMenu {
+    height: 100vh;
     left: 260px;
-    position: absolute;
+    overflow: scroll;
+    position: fixed;
+
   }
 }
