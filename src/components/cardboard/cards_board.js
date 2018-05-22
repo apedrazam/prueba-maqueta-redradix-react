@@ -6,7 +6,8 @@ const CardsBoard = (props) => {
     return (
       <CardItem
         frontText={card.frontText}
-        backText={card.backText} image={card.image}
+        backText={card.backText}
+        image={card.image}
         flipCard={props.flipCard}
         flippedCard={props.flippedCard}
       />

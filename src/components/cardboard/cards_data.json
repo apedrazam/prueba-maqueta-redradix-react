@@ -4,8 +4,8 @@
     "frontText": "¿Y no te estarás flipando un poco?",
     "backText": "Igual sí, pero internec dice que hay que destacar.",
     "image":  {
-      "imageUrl": "",
-      "imageAlt": ""
+      "imageUrl": "../../assets/img/nyan-cat.png",
+      "imageAlt": "nyan cat"
     }
   },
   {
@@ -13,8 +13,8 @@
     "frontText": "¿Entonces, eres un unicornio?",
     "backText": "Más bien soy un unitard, pero lo intento.",
     "image": {
-      "imageUrl": "",
-      "imageAlt": ""
+      "imageUrl": "../../assets/img/unitard.png",
+      "imageAlt": "unitard"
     }
   },
   {
@@ -22,17 +22,17 @@
     "frontText": "¿Y cuánto tiempo llevas en esto?",
     "backText": "5 añitos aproximadamente",
     "image": {
-      "imageUrl": "",
-      "imageAlt": ""
+      "imageUrl": "../../assets/img/mano.png",
+      "imageAlt": "mano"
     }
   },
   {
     "id": 3,
     "frontText": "¿Qué puedes aportar como persona?",
-    "backText": "Flexibiidad, buen trabajo en equipo y flexibilidad.",
+    "backText": "Curiosidad, buen trabajo en equipo y flexibilidad.",
     "image":  {
-      "imageUrl": "",
-      "imageAlt": ""
+      "imageUrl": "../../assets/img/yogui.png",
+      "imageAlt": "yogui"
     }
   },
   {
@@ -40,8 +40,8 @@
     "frontText": "¿Qué buscas en una empresa?",
     "backText": "Las tres Cs: crecer, crear y cerveza.",
     "image":  {
-      "imageUrl": "",
-      "imageAlt": ""
+      "imageUrl": "../../assets/img/beer.png",
+      "imageAlt": "cerveza"
     }
   },
   {
@@ -49,8 +49,8 @@
     "frontText": "¿Cuándo lo queremos?",
     "backText": "¡El perro de Fry!",
     "image":  {
-      "imageUrl": "",
-      "imageAlt": ""
+      "imageUrl": "../../assets/img/seymour.png",
+      "imageAlt": "Seymour"
     }
   }
 ]

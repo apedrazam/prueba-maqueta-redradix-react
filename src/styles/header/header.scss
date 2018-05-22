@@ -1,0 +1,57 @@
+.header{
+  width: 100%;
+}
+
+.header-content{
+    display: flex;
+    margin: 15px auto 30px;
+    max-width: 1400px;
+    padding: 15px;
+}
+h1{
+  flex-grow: 2;
+  order: 1;
+  transition: .2s;
+
+  span{
+    font-size: 2.5em;
+    transition: .2s;
+
+    &.thin-title{
+      font-family: 'Oswald-ExtraLight';
+    }
+    &.heavy-title{
+      font-family: 'Oswald-Regular';
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header{
+    background-color: $secondary-dark;
+    color: $light-grey;
+    position: fixed;
+    left: 0;
+    transition: all .8s ease-in-out;
+    top: 0;
+    z-index: 33;
+  }
+  .header-content{
+    margin: 5px auto;
+  }
+  h1 {
+    order: 2;
+    text-align: center;
+    width: 100%;
+
+    span{
+      font-size: 1.8em;
+    }
+  }
+
+  .App.openMenu {
+    .header{
+      left: 260px;
+    }
+  }
+}

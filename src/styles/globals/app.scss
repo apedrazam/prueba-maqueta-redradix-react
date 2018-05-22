@@ -1,0 +1,45 @@
+@import '../globals/variables.scss';
+
+.App{
+  background-color: $main-bg;
+  color: $main-text;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 0;
+  transition: all .8s ease-in-out;
+  width: 100vw;
+}
+
+a{
+  color: $secondary-light;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited{
+    color: $primary-medium;
+  }
+}
+
+.footer{
+  background-color: $secondary-dark;
+  bottom: 0;
+  color: $light-grey;
+  margin: 0 auto;
+  padding: 10px 30px;
+  position: fixed;
+  width: 100%;
+
+  .footer-content{
+    font-size: .7em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .App.openMenu {
+    left: 260px;
+    position: absolute;
+  }
+}

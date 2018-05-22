@@ -1,12 +1,14 @@
 // GLOBALS
+@import 'globals/_reset.scss';
+@import 'globals/_variables.scss';
+@import 'globals/_fonts.scss';
 
-@import 'globals/settings';
+@import 'globals/app.scss';
 
-// BASE
+//HEADER
+@import 'header/header.scss';
+@import 'header/menu.scss';
 
-// ATOMS
-
-@import 'atoms/icons';
-@import 'atoms/buttons';
-
-// MOLECULES
+//CARDBOARD
+@import 'cardboard/board.scss';
+@import 'cardboard/card.scss';

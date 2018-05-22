@@ -31,13 +31,11 @@ class App extends Component {
     return (
       <div className={this.state.openMenu ? "App" : "App openMenu"}>
         <AppHeader toggleMenu={this.toggleMenu}/>
-        <section className="app-wrapper">
-          <CardsBoard
-            cards={this.state.cards}
-            flipCard={this.flipCard}
-            flippedCard={this.state.flippedCard}
-          />
-        </section>
+        <CardsBoard
+          cards={this.state.cards}
+          flipCard={this.flipCard}
+          flippedCard={this.state.flippedCard}
+        />
         <AppFooter name="Adrián Pedraza" link="https://github.com/hyphenfrog/prueba-maqueta-redradix-react"/>
       </div>
     )

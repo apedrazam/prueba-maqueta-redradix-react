@@ -1,0 +1,31 @@
+.header {
+  width: 100%; }
+
+.header-content {
+  display: flex;
+  margin: 15px auto 30px;
+  max-width: 1400px;
+  padding: 15px; }
+
+h1 {
+  flex-grow: 2;
+  order: 1; }
+  h1 span {
+    font-size: 2.5em; }
+    h1 span.thin-title {
+      font-family: 'Oswald-ExtraLight'; }
+    h1 span.heavy-title {
+      font-family: 'Oswald-Regular'; }
+
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+    left: 0;
+    transition: all .8s ease-in-out;
+    top: 0; }
+  h1 {
+    order: 2;
+    text-align: center;
+    width: 100%; }
+  .App.openMenu .header {
+    left: 260px; } }

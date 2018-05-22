@@ -1,0 +1,33 @@
+.App {
+  background-color: #f4f4f4;
+  color: #1d1d1d;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  position: absolute;
+  left: 0;
+  transition: all .8s ease-in-out;
+  width: 100vw; }
+
+a {
+  color: #53A2BE;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #883636; }
+
+.footer {
+  background-color: #0A2239;
+  bottom: 0;
+  color: #efefef;
+  margin: 0 auto;
+  padding: 10px 30px;
+  position: fixed;
+  width: 100%; }
+  .footer .footer-content {
+    font-size: .7em;
+    text-align: center; }
+
+@media (max-width: 768px) {
+  .App.openMenu {
+    left: 260px;
+    position: absolute; } }
