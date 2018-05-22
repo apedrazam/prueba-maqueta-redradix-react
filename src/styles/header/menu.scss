@@ -29,6 +29,7 @@ nav{
   height: 3px;
   margin: 4px;
   position:relative;
+  transform: .8s;
   width: 20px;
 }
 
@@ -78,6 +79,18 @@ nav{
   .App.openMenu {
     .menu-button{
       left: 275px;
+
+      & .icon-bar:first-child{
+        top: 7px;
+        transform: rotate(45deg);
+      }
+      & .icon-bar:nth-child(2){
+        width: 0;
+      }
+      & .icon-bar:last-child{
+        top: -7px;
+        transform: rotate(-45deg);
+      }
     }
     .nav-container{
       left: 0;

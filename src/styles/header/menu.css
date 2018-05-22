@@ -24,6 +24,7 @@ nav {
   height: 3px;
   margin: 4px;
   position: relative;
+  transform: .8s;
   width: 20px; }
 
 @media (max-width: 768px) {
@@ -60,5 +61,13 @@ nav {
       padding: 15px; }
   .App.openMenu .menu-button {
     left: 275px; }
+    .App.openMenu .menu-button .icon-bar:first-child {
+      top: 7px;
+      transform: rotate(45deg); }
+    .App.openMenu .menu-button .icon-bar:nth-child(2) {
+      width: 0; }
+    .App.openMenu .menu-button .icon-bar:last-child {
+      top: -7px;
+      transform: rotate(-45deg); }
   .App.openMenu .nav-container {
     left: 0; } }

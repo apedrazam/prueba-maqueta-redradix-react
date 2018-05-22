@@ -9,9 +9,11 @@
 
 h1 {
   flex-grow: 2;
-  order: 1; }
+  order: 1;
+  transition: .2s; }
   h1 span {
-    font-size: 2.5em; }
+    font-size: 2.5em;
+    transition: .2s; }
     h1 span.thin-title {
       font-family: 'Oswald-ExtraLight'; }
     h1 span.heavy-title {
@@ -19,13 +21,20 @@ h1 {
 
 @media (max-width: 768px) {
   .header {
+    background-color: #0A2239;
+    color: #efefef;
     position: fixed;
     left: 0;
     transition: all .8s ease-in-out;
-    top: 0; }
+    top: 0;
+    z-index: 33; }
+  .header-content {
+    margin: 5px auto; }
   h1 {
     order: 2;
     text-align: center;
     width: 100%; }
+    h1 span {
+      font-size: 1.8em; }
   .App.openMenu .header {
     left: 260px; } }
